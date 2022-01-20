@@ -1,0 +1,191 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+
+        System.out.print("Kaçıncı Ayda Doğdunuz (örnek , 1,2):");
+        int ay=input.nextInt();
+
+        System.out.print("Doğum Gününü Yazınız: ");
+        int gun=input.nextInt();
+
+        if(ay==1)
+        {
+            if(gun>=1 && gun<=21)
+            {
+                System.out.println("Oğlak");
+            }
+        }
+
+        if(ay==1)
+        {
+            if(gun>=22 && gun<=31)
+            {
+                System.out.println("Kova");
+            }
+        }
+
+        if(ay==2)
+        {
+            if(gun>=1 && gun<=19)
+            {
+                System.out.println("Kova");
+            }
+        }
+        if(ay==2) {
+            if (gun >= 20 && gun <= 29) {
+                System.out.println("Balık");
+            }
+
+            if (ay == 3) {
+                if (gun >= 1 && gun <= 20) {
+                    System.out.println("Balık");
+                }
+            }
+        }
+
+        if(ay==3)
+        {
+            if(gun>=21 && gun<=31)
+                System.out.println("Oğlak");
+        }
+        if(ay==4)
+        {
+            if(gun>=1 && gun<=20)
+            {
+                System.out.println("Oğlak");
+            }
+        }
+
+        if(ay==4)
+        {
+            if(gun>=21 && gun<=30)
+            {
+                System.out.println("Boğa");
+            }
+        }
+
+        if(ay==5)
+        {
+            if(gun>=1 && gun<=21)
+            {
+                System.out.println("Boğa");
+            }
+        }
+        if(ay==5)
+        {
+            if(gun>=22 && gun<=31)
+            {
+                System.out.println("İkizler");
+            }
+        }
+        if(ay==6)
+        {
+            if(gun>=1 && gun<=22)
+            {
+                System.out.println("İkizler");
+            }
+        }
+        if(ay==6)
+        {
+            if(gun>=23 && gun<=30)
+            {
+                System.out.println("Yengeç");
+            }
+        }
+
+        if(ay==7)
+        {
+            if(gun>=1 && gun<=22)
+            {
+                System.out.println("Yengeç");
+            }
+        }
+        if(ay==7)
+        {
+            if(gun>=23 && gun<=31)
+            {
+                System.out.println("Aslan");
+            }
+        }
+
+        if(ay==8)
+        {
+            if(gun>=1 && gun<=22)
+            {
+                System.out.println("Aslan");
+            }
+        }
+        if(ay==8)
+        {
+            if(gun>=23 && gun<=31)
+            {
+                System.out.println("Başak");
+            }
+        }
+
+        if(ay==9)
+        {
+            if(gun>=1 && gun<=22)
+            {
+                System.out.println("Başak");
+            }
+        }
+        if(ay==9)
+        {
+            if(gun>=23 && gun<=30)
+            {
+                System.out.println("Terazi");
+            }
+        }
+
+        if(ay==10)
+        {
+            if(gun>=1 && gun<=22)
+            {
+                System.out.println("Terazi");
+            }
+        }
+        if(ay==10)
+        {
+            if(gun>=23 && gun<=31)
+            {
+                System.out.println("Akrep");
+            }
+        }
+
+        if(ay==11)
+        {
+            if(gun>=1 && gun<=21)
+            {
+                System.out.println("Akrep");
+            }
+        }
+        if(ay==11)
+        {
+            if(gun>=22 && gun<=30)
+            {
+                System.out.println("Yay");
+            }
+        }
+
+        if(ay==12)
+        {
+            if(gun>=1 && gun<=21)
+            {
+                System.out.println("Yay");
+            }
+        }
+        if(ay==12)
+        {
+            if(gun>=22 && gun<=31)
+            {
+                System.out.println("Oğlak");
+            }
+        }
+
+       }
+
+    }
